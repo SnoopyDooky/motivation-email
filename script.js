@@ -9,7 +9,7 @@ document.getElementById("signup-button").addEventListener("click", async functio
     }
 
     try {
-        let response = await fetch("http://127.0.0.1:8000/signup", {
+        let response = await fetch("https://motivation-server-production.up.railway.app/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
